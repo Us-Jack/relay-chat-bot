@@ -240,7 +240,7 @@ export class BotService {
 
   welcomeText(): string {
     const welcome = this.env.WELCOME_MESSAGE || "你好！请发送消息，我们会尽快回复。";
-    return `${welcome}\n\n该机器人来自<a href="${PROJECT_URL}">RelayChatBot</a>`;
+    return `${welcome}`;
   }
 
   isGeneralTopic(threadId?: number): boolean {
