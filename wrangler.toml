@@ -5,17 +5,17 @@ compatibility_date = "2025-02-24"
 # KV：用户 ↔ 话题映射、验证状态、封禁列表
 [[kv_namespaces]]
 binding = "KV"
-id = "6d8e0375ae344d359b4d08c5d7f51e33"
-preview_id = "6d8e0375ae344d359b4d08c5d7f51e33"
+id = "45ae2a0f803d432785e9c70208f98ce3"
+preview_id = "45ae2a0f803d432785e9c70208f98ce3"
 
 # 非敏感配置（也可用 wrangler secret / dashboard 覆盖）
 [vars]
 # 话题群组 ID（形如 -100xxxxxxxxxx）
-SUPERGROUP_ID = "-1004334110783"
+SUPERGROUP_ID = "-1004384683752"
 # 管理员 Telegram User ID，多个用逗号分隔
-ADMIN_UIDS = "5093323865"
+ADMIN_UIDS = "5713476290"
 # 隐藏管理路径，用于注册 webhook / 初始化
-ADMIN_PATH = "manage_a7f3k9"
+ADMIN_PATH = "manage_afaf00q7f3k9"
 # 是否开启新人验证（true/false）
 VERIFY_ENABLED = "true"
 # 验证有效期（天）
